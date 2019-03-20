@@ -1,128 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lawrence Nowak Portfolio Page</title>
-    <link type="text/css" href="styles/styles.css">
-    <script type="text/javascript" src="scripts/javascript.js"></script>
-  </head>
-  
-  
-  <body>
-      <nav class="navbar">
-        <div><a href="#home">Home</a></div>
-        <div><a href="#portfolio">Portfolio</a></div>
-        <div><a href="#projects">Projects</a></div>
-        <div><a href="#about">About me</a></div>
-        <div><a href="#contact">Contact</a></div>
-      </nav>
-      
-      <div id="home" class="home">
-          <p>I am a new developer who uses <strong>Html</strong>, <strong>Css</strong>, <strong>Javascript</strong>, <strong>Node.js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Adobe Illustrator</strong> and <strong>Adobe XD</strong> to create responsive Websites as well as Progressive Webapplications</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lawrence Nowak Portfolio Page</title>
+  <link type="text/css" href="styles/index.css">
+  <script type="text/javascript" src="scripts/javascript.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div><a href="#home">Home</a></div>
+    <div class="navelement"><a href="#portfolio">Portfolio</a> </div>
+    <div class="navelement"><a href="#projects">Projects</a></div>
+    <div class="navelement"><a href="#about">About me</a></div>
+    <div class="navelement"><a href="#contact">Contact</a></div>
+  </nav>
+
+  <section id="home">
+    <div class="home">
+      <p>I am a new developer who uses <br> <strong>Html</strong>, <strong>Css</strong>, <strong>Javascript</strong>, <strong>Node.js</strong>, <strong>Express</strong>, <strong>MongoDB</strong>, <strong>Adobe Illustrator</strong> and <strong>Adobe XD</strong> <br>        to create responsive Websites as well as Progressive Webapplications</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h1>Portfolio</h1>
+    <div class="slideshow">
+      <div class="slideThumb">
+        <a href="portfolioPage.html"><img src="" alt="image"></a>
       </div>
-      
-      <section id="portfolio" class="portfolio">
-        <h1>Portfolio</h1>
-          <div class="slideshow">
-            <div class="slideThumb">
-              <a href="portfolioPage.html"><img src="" alt="image"></a>
-            </div>
-            
-            <div class="slideThumb">
-              <img src="">
-                <div class="slideDetail">
-                  <h3></h3>
-                  <p></p>
-                </div>
-            </div>
-            
-             <div class="slideThumb">
-              <img src="">
-                <div class="slideDetail">
-                  <h3></h3>
-                  <p></p>
-                </div>
-            </div>
-           
-          </div>
-          
-          <div class="slidebuttons">
-            <a></a>
-            <a></a>
-            <a></a>
-          </div>
-        
-      </section>
-      
-      <section id="#projects" class="projects">
-          <h1>Projects</h1>
-            <article>
-              <h3>Currently Working on:</h3>
-                <p>Time Tracker Webapp</p>
-                <p>In order to increase my own productivity as well as tracking my own work pace, I used (and am still using) a webapp called Clockify.me. Its a free online time tracker that you use in your browser. The only issue I had was that I am using the pomodoro technique. In short: The pomodoro technique is a method to increase ones productivity by splitting up a taskt in so called pomodori, which lasts 25 minutes. After one pomodori a 5 minute break ist held, after 4 pomodori, i.e. the 4th break, a longer break is being conducted, which lasts from 20 minutes to 25 minutes. The pomodori technique ensures high focus on any given task by eliminating the risk of procrastination. It gives you little timechunks where you can do whatever you please and scratch your procrastination itch. With the app I am currently working on I want to combine a timetracker with the pomodori technique to extract the net working time and the total working time. Also I want to visualise my data in form of graphs and whatnot </p>
-            </article>
-      </section>
-      
-      <section id="about" class="about">
-          <h2>About me</h2>
-          
-          <article>
-            <h3>Bio</h3>
-              <p>After dropping out of University to start a company with my friends. I decided to build something of my own. I was always interested in coding but I never really pulled the trigger to start learning to code properly. After completing the Webdeveloper Bootcamp by Colt Steele, I am now doing my first steps in Coding by building up a portfolio of coding projects to cement the knowledge I gained during the course. I am also doing other courses as well as studying relevant Webdevelopment books. I also track my learing process on this site.</p>
-          </article>
-          
-          <article>
-            <h3>Skills</h3>
-              <p>Html Css Javascript Node.js MongoDB Adobe Illustrator/XD</p>
-          </article>
-          
-          <article>
-            <h3>Learning status as of (add real time timestamp)</h3>
-              <h4>Online-courses</h4>
-                <h5>Compeleted</h5>
-                  <p>
-                    The Webdeveloper Bootcamp by Colt Steele
-                  </p>
-                <h5>In progress</h5>
-                  <p>
-                      The Ultimate Webdevolper Bootcamp 2019 by Andrei Neagoie
-                  </p>
-                <h5>Upcoming</h5>  
-                  <p>
-                      Advanced Css and Sass by Jonas Schmedtmann
-                      The Ultimate MySQL Bootcamp by Colt Steele
-                      Watch and Code - practical Javascript by Gordon Zhu
-                  </p>
-              <h4>Books</h4>
-                <h5>Compeleted</h5>
-                  <p>
-                      none
-                  </p>
-                <h5>In progress</h5>
-                  <p>
-                      Don't Make Me Think Revisited - A Common Sense Approach to Web Usability
-                  </p>
-                <h5>Upcoming</h5>  
-                  <p>
-                      You don't know JS
-                  </p>
-          </article>
-      </section>
-      
-      <div id="contact" class="contact">
-          <h2>Contact</h2>
-          <form>
-            
-          </form>
+
+      <div class="slideThumb">
+        <img src="">
+        <div class="slideDetail">
+          <h3></h3>
+          <p></p>
+        </div>
       </div>
-  </body>
-  
-  <footer>
-      <div class="imprint">
-        <a href="imprint/en/imprint.html"><p>Imprint</p></a>
+
+      <div class="slideThumb">
+        <img src="">
+        <div class="slideDetail">
+          <h3></h3>
+          <p></p>
+        </div>
       </div>
-      <div class="dsgvo">
-        <a href="dsgvo/en/gdpr.html"><p>Gdpr</p></a>
-      </div>
-  </footer>
+
+    </div>
+
+    <div class="slidebuttons">
+      <a></a>
+      <a></a>
+      <a></a>
+    </div>
+
+  </section>
+
+  <section id="#projects" class="projects">
+    <h1>Projects</h1>
+    <article>
+      <h3>Currently Working on:</h3>
+      <p>Time Tracker Webapp</p>
+      <p>In order to increase my own productivity as well as tracking my own work pace, I used (and am still using) a webapp called Clockify.me. Its a free online time tracker that you use in your browser. The only issue I had was that I am using the pomodoro
+        technique. In short: The pomodoro technique is a method to increase ones productivity by splitting up a taskt in so called pomodori, which lasts 25 minutes. After one pomodori a 5 minute break ist held, after 4 pomodori, i.e. the 4th break, a
+        longer break is being conducted, which lasts from 20 minutes to 25 minutes. The pomodori technique ensures high focus on any given task by eliminating the risk of procrastination. It gives you little timechunks where you can do whatever you please
+        and scratch your procrastination itch. With the app I am currently working on I want to combine a timetracker with the pomodori technique to extract the net working time and the total working time. Also I want to visualise my data in form of graphs
+        and whatnot </p>
+    </article>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About me</h2>
+
+    <article>
+      <h3>Bio</h3>
+      <p>After dropping out of University to start a company with my friends. I decided to build something of my own. I was always interested in coding but I never really pulled the trigger to start learning to code properly. After completing the Webdeveloper
+        Bootcamp by Colt Steele, I am now doing my first steps in Coding by building up a portfolio of coding projects to cement the knowledge I gained during the course. I am also doing other courses as well as studying relevant Webdevelopment books.
+        I also track my learing process on this site.</p>
+    </article>
+
+    <article>
+      <h3>Skills</h3>
+      <p>Html Css Javascript Node.js MongoDB Adobe Illustrator/XD</p>
+    </article>
+
+    <article>
+      <h3>Learning status as of (add real time timestamp)</h3>
+      <h4>Online-courses</h4>
+      <h5>Compeleted</h5>
+      <p>
+        The Webdeveloper Bootcamp by Colt Steele
+      </p>
+      <h5>In progress</h5>
+      <p>
+        The Ultimate Webdevolper Bootcamp 2019 by Andrei Neagoie
+      </p>
+      <h5>Upcoming</h5>
+      <p>
+        Advanced Css and Sass by Jonas Schmedtmann The Ultimate MySQL Bootcamp by Colt Steele Watch and Code - practical Javascript by Gordon Zhu
+      </p>
+      <h4>Books</h4>
+      <h5>Compeleted</h5>
+      <p>
+        none
+      </p>
+      <h5>In progress</h5>
+      <p>
+        Don't Make Me Think Revisited - A Common Sense Approach to Web Usability
+      </p>
+      <h5>Upcoming</h5>
+      <p>
+        You don't know JS
+      </p>
+    </article>
+  </section>
+
+  <div id="contact" class="contact">
+    <h2>Contact</h2>
+    <form>
+
+    </form>
+  </div>
+</body>
+
+<footer>
+  <div class="imprint">
+    <a href="imprint/en/imprint.html">
+      <p>Imprint</p>
+    </a>
+  </div>
+  <div class="dsgvo">
+    <a href="dsgvo/en/gdpr.html">
+      <p>Gdpr</p>
+    </a>
+  </div>
+</footer>
+
 </html>
