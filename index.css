@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background-color: azure;
+    margin:0px;
+}
+
+.navbar {
+  display:flex;
+  background-color:red;
+  padding:1em;
+  justify-content:center;
+}
+
+.navbar > div > a{
+  margin:5em;
+  padding:1em;
+  text-decoration:none;
+}
+
+nav > div > a:hover { 
+  background-color: yellow;
+}
+
+.home{
+  margin:10em;
+  font-size:5 em;
+}
+
+.home > p {
+  font-size: 2em;
+}
+
+.slideButton{
+  height:25px;
+  width:25px;
+  background-color:blue;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.slideButton:hover{
+  background-color:yellow;
+}
+
+.slideButton:active{
+  background-color:red;
+}
+
+a {
+  text-decoration: none;
+}

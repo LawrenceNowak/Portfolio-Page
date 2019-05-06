@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Lawrence Nowak Portfolio Page</title>
-  <link type="text/css" href="styles/index.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
   <script type="text/javascript" src="scripts/javascript.js"></script>
 </head>
 
@@ -26,21 +26,26 @@
   <section id="portfolio" class="portfolio">
     <h1>Portfolio</h1>
     <div class="slideshow">
-      <div class="slideThumb">
-        <a href="portfolioPage.html"><img src="" alt="image"></a>
+  
+      <div id="slideThumbOne" class="slideThumbOne">
+        <a id="slideThumbOne" href="portfolioPage.html"><img src="" alt="image"></a>
+        <div class="slideDetailOne">
+            <h3></h3>
+            <p></p>
+          </div>
       </div>
 
-      <div class="slideThumb">
-        <img src="">
-        <div class="slideDetail">
+      <div id="slideThumbTwo" class="slideThumbTwo">
+        <a href="portfolioPage.html"><img src="" alt="image"></a>
+        <div class="slideDetailTwo">
           <h3></h3>
           <p></p>
         </div>
       </div>
 
-      <div class="slideThumb">
-        <img src="">
-        <div class="slideDetail">
+      <div id="slideThumbThree" class="slideThumbThree">
+        <a href="portfolioPage.html"><img src="" alt="image"></a>
+        <div class="slideDetailThree">
           <h3></h3>
           <p></p>
         </div>
@@ -48,15 +53,22 @@
 
     </div>
 
-    <div class="slidebuttons">
-      <a></a>
-      <a></a>
-      <a></a>
+    <div class="slideButtonSection">
+      
+      <a href="#slideThumbOne" id="slideThumbOneButton"><span class="slideButton" onclick="slideButton()"></span> 
+      </a>
+
+      <a href="#slideThumbTwo" id="slideThumbTwoButton"><span class="slideButton" onclick="slideButton()"></span> 
+      </a>
+      
+      <a href="#slideThumbThree" id="slideThumbThreeButton"><span class="slideButton" onclick="slideButton()"></span> 
+      </a>
+
     </div>
 
   </section>
 
-  <section id="#projects" class="projects">
+  <section id="projects" class="projects">
     <h1>Projects</h1>
     <article>
       <h3>Currently Working on:</h3>
