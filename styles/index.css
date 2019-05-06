@@ -53,7 +53,17 @@ nav > div > a:hover {
   text-align:center;
 }
 
-.image {
+.imageOne {
+  max-width: 80%;
+  height: auto;
+}
+
+.imageTwo {
+  max-width: 80%;
+  height: auto;
+}
+
+.imageThree {
   max-width: 80%;
   height: auto;
 }
