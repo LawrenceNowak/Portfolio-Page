@@ -31,3 +31,23 @@ nav > div > a:hover {
 .home > p {
   font-size: 2em;
 }
+
+.slideButton{
+  height:25px;
+  width:25px;
+  background-color:blue;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.slideButton:hover{
+  background-color:yellow;
+}
+
+.slideButton:active{
+  background-color:red;
+}
+
+a {
+  text-decoration: none;
+}
