@@ -1,9 +1,9 @@
 body{
-    display:flex;
-    flex-direction: column;
-    text-align:center;
-    background-color: azure;
-    margin:0px;
+  display:flex;
+  flex-direction: column;
+  text-align:center;
+  background-color: azure;
+  margin:0px;
 }
 
 .navbar {
@@ -46,6 +46,16 @@ nav > div > a:hover {
 
 .slideButton:active{
   background-color:red;
+}
+
+.portfolio{
+  width:auto;
+  text-align:center;
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
 }
 
 a {
