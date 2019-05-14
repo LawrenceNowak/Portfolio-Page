@@ -1,6 +1,6 @@
 body{
-  display:flex;
-  flex-direction: column;
+  display:grid;
+  
   text-align:center;
   background-color: azure;
   margin:0px;
@@ -32,42 +32,17 @@ nav > div > a:hover {
   font-size: 2em;
 }
 
-.slideButton{
-  height:25px;
-  width:25px;
-  background-color:blue;
-  border-radius:50%;
-  display:inline-block;
+.portfolio-container{
+  display:flex;
+  flex-wrap: wrap;
 }
 
-.slideButton:hover{
-  background-color:yellow;
+.portfolio-content-image{
+  max-width:100%;
+  height:auto;
+}
+.portfolio-content{
+  max-width: 900px;
+  height:auto;
 }
 
-.slideButton:active{
-  background-color:red;
-}
-
-.portfolio{
-  width:auto;
-  text-align:center;
-}
-
-.imageOne {
-  max-width: 80%;
-  height: auto;
-}
-
-.imageTwo {
-  max-width: 80%;
-  height: auto;
-}
-
-.imageThree {
-  max-width: 80%;
-  height: auto;
-}
-
-a {
-  text-decoration: none;
-}
