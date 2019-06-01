@@ -1,21 +1,32 @@
 body{
-  display:grid;
-  
-  text-align:center;
+  display:flex;
+  justify-content: center;
   background-color: azure;
   margin:0px;
+  margin-left: 140px; 
+  padding: 0px 10px;
 }
 
 .navbar {
   display:flex;
+  position: fixed;
+  flex-shrink : 1;
   background-color:red;
-  padding:1em;
-  justify-content:center;
+  flex-direction:column;
+  justify-content: space-around;
+  overflow-x: hidden;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  height:100%;
+  width:50px;
 }
 
+
 .navbar > div > a{
-  margin:5em;
-  padding:1em;
+  flex-shrink : 1;
+  display: block;
+  padding:20px 20px 100px 10px;
   text-decoration:none;
 }
 
@@ -32,7 +43,7 @@ nav > div > a:hover {
   font-size: 2em;
 }
 
-.portfolio-container{
+.portfolio-content{
   display:flex;
   flex-wrap: wrap;
 }
@@ -46,3 +57,22 @@ nav > div > a:hover {
   height:auto;
 }
 
+.portfolio{
+  margin:10em;
+  font-size:5 em;
+}
+
+.projects{
+  margin:10em;
+  font-size:5 em;
+}
+
+.about{
+  margin:10em;
+  font-size:5 em;
+}
+
+.contact{
+  margin:10em;
+  font-size:5 em;
+}
