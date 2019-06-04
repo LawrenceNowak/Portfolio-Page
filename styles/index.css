@@ -1,9 +1,11 @@
 @media screen and (max-width: 320px) {
   body{
+    font-family:"Lato";
+    font-size: 14px;
     display:flex;
     justify-content: center;
     background-color: azure;
-    margin-left: 1000 vw; 
+    padding: 10% 20% 0% 80%; 
   }
   
   .navbar {
@@ -104,3 +106,11 @@
 @media screen and (max-width: 2580px) {
   
 }
+
+/*  FONT SIZES // GOLDEN RATIO 
+h1 { font-family: Lato; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+h3 { font-family: Lato; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+p { font-family: Lato; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+blockquote { font-family: Lato; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+pre { font-family: Lato; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+*/
