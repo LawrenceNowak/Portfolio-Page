@@ -5,7 +5,7 @@
     display:flex;
     justify-content: center;
     background-color: azure;
-    padding: 10% 20% 0% 80%; 
+    padding: 15% 25% 20% 75%; 
   }
   
   .navbar {
@@ -25,22 +25,19 @@
   
   .navbar > div > a{
     display: block;
-    padding: 5px 5px 5px 5px;
+    padding: 5% 5% 5% 5%;
     text-decoration:none;
+    font-family:"Lato";
+    font-size: 12px;
+    text-align:center;
   }
   
   nav > div > a:hover { 
     background-color: yellow;
   }
-  
-  .home{
-    margin:0em;
-    font-size: 1em;
-  }
-  
   .home > p {
-    font-size: 1em;
-    text-align:center;
+    font-size: 2em;
+    text-align: center;
   }
   
   .portfolio-content{
