@@ -3,22 +3,23 @@
     font-family:"Lato";
     font-size: 1rem;
     display:flex;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: justify;
     background-color: azure;
+    max-width:100%;
   }
   
   .navbar {
     display:flex;
     position: fixed;
     background-color:red;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: space-evenly;
     overflow-x: hidden;
     z-index: 1;
     top: 0; 
     left: 0;
-    height:100%;
-    width:22vw;
+    width:100%;
   }
   
   
@@ -27,7 +28,7 @@
     padding: 5% 5% 5% 5%;
     text-decoration:none;
     font-family:"Lato";
-    font-size: 1em;
+    font-size: 2em;
     text-align:center;
   }
   
@@ -35,49 +36,21 @@
     background-color: yellow;
   }
   .home > p {
-    font-size: 2rem;
+    font-size: 4em;
     text-align:center;
-    padding: 2em 1em 2em 12em;
+    padding: 2em 7em 5em 5em;
   }
 
   h2{
-    font-size: 3rem;
-    text-align:center;
-    padding: 2em 1em 2em 7em;
-  }
-  
-  .portfolio-content{
-    display:flex;
-    flex-wrap: wrap;
-    height:auto;
   }
   
   .portfolio-content-image{
+    display:flex;
     max-width:100%;
-    height:auto;
   }
-  
-  .portfolio{
-    margin:10em;
-    font-size:5 em;
-  }
-  
-  .projects{
-    margin:10em;
-    font-size:5 em;
-  }
-  
-  .about{
-    margin:10em;
-    font-size:5 em;
-  }
-  
-  .contact{
-    margin:10em;
-    font-size:5 em;
-  }
-  
+
 }
+
 
 @media screen and (max-width: 375px) {
   
