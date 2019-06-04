@@ -1,12 +1,14 @@
 @media screen and (max-width: 320px) {
   body{
     font-family:"Lato";
-    font-size: 1rem;
+    font-size:1rem;
+    -moz-text-align-last: center; /* Code for Firefox */
+    text-align: justify;
+    text-align-last: center;
     display:flex;
     flex-direction:column;
-    justify-content: justify;
     background-color: azure;
-    max-width:100%;
+    margin: 2em 1em 1em 1em;
   }
   
   .navbar {
@@ -20,28 +22,30 @@
     top: 0; 
     left: 0;
     width:100%;
+    height:5%;
   }
-  
-  
+
   .navbar > div > a{
-    display: block;
-    padding: 5% 5% 5% 5%;
     text-decoration:none;
-    font-family:"Lato";
-    font-size: 2em;
     text-align:center;
+    font-size:0.3 em;
+    display: block;
   }
   
   nav > div > a:hover { 
     background-color: yellow;
   }
   .home > p {
-    font-size: 4em;
-    text-align:center;
-    padding: 2em 7em 5em 5em;
+    text-align: justify;
+    font-size:10 rem;
+    padding:8em 1em 11em 1em;
+  }
+
+  p{
   }
 
   h2{
+    text-align: center; 
   }
   
   .portfolio-content-image{
