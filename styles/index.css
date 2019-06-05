@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+
   body{
     font-family:"Lato";
     font-size:1rem;
@@ -8,7 +8,7 @@
     display:flex;
     flex-direction:column;
     background-color: azure;
-    margin: 2em 1em 1em 1em;
+    padding-top: 100px;
   }
   
   .navbar {
@@ -39,11 +39,20 @@
   .home > p {
     text-align: justify;
     font-size:10 rem;
-    padding:8em 1em 11em 1em;
+    padding:2em 1em 11em 1em;
   }
 
   h2{
-    text-align: center; 
+    text-align: center;
+  }
+
+  section::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -340px; 
+    height: 400px; 
+    visibility: hidden; 
+    pointer-events: none;
   }
   
   .portfolio-content-image{
@@ -51,8 +60,9 @@
     max-width:100%;
   }
 
+@media screen and (max-width: 320px) {
+  
 }
-
 
 @media screen and (max-width: 375px) {
   
