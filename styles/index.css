@@ -30,6 +30,7 @@
     text-decoration:none;
     text-align:center;
     display: block;
+    font-size:1em !important;
     padding: 3em 0.2em 3em 0.5em;
   }
   
@@ -55,41 +56,60 @@
     pointer-events: none;
   }
   
-  .portfolio-content-image{
+  .images{
     display:flex;
     max-width:100%;
   }
 
-@media screen and (max-width: 320px) {
-  
-}
-
-@media screen and (max-width: 375px) {
-  
+@media screen and (min-width: 375px) {
+  .navbar {
+    height:8%;
+  }
+  .navbar > div > a{
+    padding: 3em 0.6em 3em 0.8em;
+  }
 }
 
 @media screen and (max-width: 425px) {
-  
+  .navbar > div > a{
+    padding: 3em 1em 3em 1em;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  
+  .navbar > div > a{
+    padding: 3em 2.2em 3em 2.2em;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .navbar > div > a{
+    padding: 3em 3.2em 3em 3.2em;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .navbar > div > a{
+    padding: 3em 4.8em 3em 4.8em;
+  }
 }
 
 @media screen and (max-width: 1440px) {
-  
+  .navbar {
+    height:3%;
+  }
+  .navbar > div > a{
+    padding: 4em 7.4em 4em 7.4em;
+  }
 }
 
 @media screen and (max-width: 2580px) {
-  
+  .navbar {
+    height:2%;
+  }
+  .navbar > div > a{
+    padding: 4em 14.5em 4em 14.5em;
+  }
 }
 
 /*  FONT SIZES // GOLDEN RATIO 
