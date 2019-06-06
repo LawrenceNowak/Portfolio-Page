@@ -63,14 +63,34 @@
     margin-right: auto;
     max-width:100%;
   }
-
-  .contact-message{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 80%;
-    height:150px;
+  #contact{
+    background-color:blue;
+    height:21em;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
   }
+
+  .contact{
+    margin-top:-3em;
+  }
+
+  section > div > p {
+    margin:0em;
+    font-size: 1.3em;
+  }
+  .contact-textarea{
+    resize:none;
+    margin:1em;
+  }
+
+  .contact-submit{
+    margin:1em;
+  }
+
+  .contact-email{
+    margin:1em;
+  }
+
   footer{
     display:flex;
     background-color:red;
