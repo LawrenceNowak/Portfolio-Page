@@ -32,10 +32,9 @@
     text-align:center;
     display: block;
     font-size:1em !important;
-    padding: 3em 0.2em 3em 0em;
   }
   
-  nav > div > a:hover { 
+  nav > div:hover { 
     background-color: yellow;
   }
   .home > p {
