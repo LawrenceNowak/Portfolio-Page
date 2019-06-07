@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 600px) {
   body{
-    padding-top: 90px;
+    padding-top: 12em;
   }
   .navbar {
     height:7%;
@@ -167,12 +167,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+  body{
+    padding-top: 20em;
+  }
+  
   .navbar {
     height:6%;
   }
 }
 
 @media screen and (min-width: 1440px) {
+
   .navbar {
     height:5%;
   }
