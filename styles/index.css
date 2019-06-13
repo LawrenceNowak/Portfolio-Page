@@ -135,6 +135,11 @@
     background-color: yellow;
   }
 
+  /* GDPR AND IMPRINT STYLES */ 
+  .legal-site{
+    margin-top: -1vh;
+  }
+
 @media screen and (min-width: 375px) {
   .navbar {
     height:8%;
@@ -170,6 +175,12 @@
   .navbar {
     height:7%;
   }
+
+   /* GDPR AND IMPRINT STYLES */ 
+   .legal-site{
+    margin-top: -16vh;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -190,12 +201,21 @@
   .navbar {
     height:6%;
   }
+
+  /* GDPR AND IMPRINT STYLES */ 
+  .legal-site{
+    margin-top: -25vh;
+  }
 }
 
 @media screen and (min-width: 1440px) {
 
   .navbar {
     height:5%;
+  }
+  /* GDPR AND IMPRINT STYLES */ 
+  .legal-site{
+    margin-top: -18vh;
   }
 }
 
@@ -255,4 +275,8 @@
     height:4vh;
   }
 
+  /* GDPR AND IMPRINT STYLES */ 
+  .legal-site{
+    margin-top: -32vh;
+  }
 }
