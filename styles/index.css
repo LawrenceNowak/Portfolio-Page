@@ -30,7 +30,7 @@
     top: 0; 
     left: 0;
     width:100%;
-    height:10%;
+    height:8vh;
     text-decoration:none;
   }
 
@@ -44,19 +44,18 @@
   nav > div:hover { 
     background-color: yellow;
   }
+
   .home {
     height:100vh;
     margin:1em;
   }
+
   .home > p {
     text-align: justify;
     font-size: 1.2em;
     padding:2em 1em 11em 1em;
   }
 
-  section{
-    height:100vh;
-  }
   h2{
     text-align: center;
   }
@@ -66,6 +65,7 @@
   }
 
   section{
+    height:100vh;
     margin: 1em;
   }
 
@@ -140,15 +140,41 @@
     margin-top: -1vh;
   }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
   .navbar {
-    height:8%;
+    height:8vh;
+  }
+  
+  .home {
+    height:55vh;
+    margin-top:30vh;
+  }
+
+  section{
+    height:60vh;
+    margin: 1em;
+  }
+
+  section::before { 
+    margin-top: 10vh;
+  }
+
+  #contact{
+    height:60vh;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
   }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 375px) {
   .navbar {
-    height:8%;
+    height:8vh;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .navbar {
+    height:8vh;
   }
 }
 
@@ -158,7 +184,7 @@
   }
 
   .navbar {
-    height:7%;
+    height:8vh;
   }
   
   .home > p {
@@ -173,7 +199,7 @@
   }
 
   .navbar {
-    height:7%;
+    height:8vh;
   }
 
    /* GDPR AND IMPRINT STYLES */ 
@@ -199,7 +225,7 @@
   }
 
   .navbar {
-    height:6%;
+    height:8vh;
   }
 
   /* GDPR AND IMPRINT STYLES */ 
@@ -211,7 +237,18 @@
 @media screen and (min-width: 1440px) {
 
   .navbar {
-    height:5%;
+    height:8vh;
+  }
+  /* GDPR AND IMPRINT STYLES */ 
+  .legal-site{
+    margin-top: -18vh;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+
+  .navbar {
+    height:8vh;
   }
   /* GDPR AND IMPRINT STYLES */ 
   .legal-site{
